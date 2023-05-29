@@ -1,0 +1,127 @@
+/* Estilo general */
+
+body {
+  background-color: rgb(235, 245, 251) 234, 242, 248;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: #333;
+  font-size: 22px;
+}
+
+/* encabezado */
+header {
+  background-color: rgb(214, 234, 248);
+  text-align: center;
+  padding: 0px;
+
+}
+
+#circle img {
+  border-radius: 80%;
+  width: 100px;
+  height: 100px;
+}
+
+/* barra de navegación */
+nav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background-color: rgb(27, 79, 114);
+  color: #fff;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+nav ul :hover {
+  font-weight: bold;
+  color: lightblue;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* contenido principal */
+main {
+  padding: 20px;
+
+}
+
+.sobre-mi {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.hobbies-intereses {
+  display: flex;
+  justify-content: space-around;
+  gap: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+
+}
+
+dt {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conceptos {
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* pie de página */
+footer {
+  background-color: rgb(214, 234, 248);
+  padding: 10px;
+  text-align: center;
+}
+
+/* responsive */
+@media screen and (max-width: 600px) {
+  header {
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .hobbies-intereses {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .conceptos {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,115 @@
+/* contenido general */
+
+body {
+    background-color: rgb(235, 245, 251 );
+    margin: 0;
+    padding: 0;
+}
+
+/* titulo principal */
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* barra de navegación */
+
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(27, 79, 114) ;
+    color: #fff;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul :hover {
+    font-weight: bold;
+    color: lightblue;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* formulario de contacto */
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(27, 79, 114) ;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(40, 116, 166 )
+}
+
+/* contenido central */
+
+main {
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* pie de página */
+
+footer {
+background-color: rgb(214, 234, 248);
+padding: 10px;
+text-align: center;
+}
+
+/* responsive */
+@media screen and (max-width: 768px) {
+    form {
+        padding: 50px;
+    }
+}
